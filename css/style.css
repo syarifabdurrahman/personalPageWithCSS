@@ -1,0 +1,165 @@
+body {
+   font-family: 'Merriweather Sans',sans-serif;
+   font-size: 20px;
+   margin: 0;
+   text-align: center;
+   min-height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+h1{
+    font-family: 'Amatic SC',
+    cursive;
+    color: #66BFBF;
+    font-size: 6.25rem;
+    margin-top: 0;
+    margin: 50px auto 0 auto;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: lighter;
+     color: #66BFBF;
+}
+
+h3{
+     color: #11999E;
+}
+
+hr{
+     background-color: #ffffff;
+     border-color: rgb(201, 201, 201);
+     border-style: none;
+     border-top-style: dotted;
+     border-width: 6px;
+     width: 15%;
+}
+
+a{
+    color: #11999E;
+}
+
+footer{
+    margin: 0;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.photo-profile{
+    margin-top: 10px;
+}
+
+.top-container{
+    background-color: #CEE5D0;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container{
+    font-family: monospace;
+}
+
+.mountain{
+    position: relative;
+    top: 3px
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.btm-cloud{
+    bottom: 300px;
+    left: 300px;
+    position: absolute;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto ;
+    text-align: left;
+}
+
+.appdev{
+   width: 25%;
+   margin-right: 30px;
+   float: left;
+}
+.webdev{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+.gamedev{
+    width: 25%;
+    margin-right: 30px;
+    float: left;
+}
+
+.bottom-container{
+    background-color: #345B63;
+    margin: 50px auto 0 auto;
+}
+
+.copyright{
+   color: #EAF6F6;
+   padding: 20px;
+   font-family: monospace;
+   font-size: small;
+}
+
+.fb{
+     margin: 30px 10px 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.github{
+   margin: 30px 10px 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.ig{
+    margin: 30px 10px 10px 10px;
+   display: inline-block;
+   text-decoration: none;
+}
+
+.BUTTON_QFP {
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    color: #11999E;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #D4ECDD;
+    border: solid #D4ECDD 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.BUTTON_QFP:hover {
+    border: solid #D4ECDD 1px;
+    background: #D4ECDD;
+    background-image: -webkit-linear-gradient(top, #D4ECDD, #D4ECDD);
+    background-image: -moz-linear-gradient(top, #D4ECDD, #D4ECDD);
+    background-image: -ms-linear-gradient(top, #D4ECDD, #D4ECDD);
+    background-image: -o-linear-gradient(top, #D4ECDD, #D4ECDD);
+    background-image: -webkit-gradient(to bottom, #D4ECDD, #D4ECDD);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
